@@ -20,6 +20,7 @@ namespace FirstAzureApp
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    Console.WriteLine("Hi");
                     webBuilder.UseStartup<Startup>();
                 });
     }
